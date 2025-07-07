@@ -1,6 +1,7 @@
 # Bank-Customer-Churn-Prediction
 
 This project aims to predict whether a bank customer is likely to churn (leave the bank) based on their profile and activity data. The goal is to help financial institutions proactively identify at-risk customers and improve customer retention strategies.
+Link to my Kaggle notebook: https://www.kaggle.com/code/haulam234/bank-customer-churn-prediction
 
 ## 📊 Dataset
 
