@@ -18,9 +18,8 @@ The dataset was obtained from Kaggle: https://www.kaggle.com/competitions/bank-c
 
 1. **Exploratory Data Analysis (EDA)**
    - Checked data distribution, missing values
-   - Categorical encoding (e.g., Gender, Geography)
+   - Categorical encoding (Gender, Geography)
    - Visualized customer churn patterns by categorical and numerical variables
-   - Feature scaling (e.g., StandardScaler)
    - Detected outliers
 
 3. **Feature engineering**  
