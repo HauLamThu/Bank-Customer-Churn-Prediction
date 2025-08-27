@@ -49,5 +49,5 @@ docker run -p 8501:8501 churn-app
 2. Displayed by Streamlit:
    - Built a simple UI for customer input.
    - Displays prediction result in real time.
-![Model](https://github.com/HauLamThu/Bank-Customer-Churn-Prediction/blob/main/streamlit-streamlit_app-churn_prediction.webm)
+![Model](https://github.com/HauLamThu/Bank-Customer-Churn-Prediction/blob/main/Streamlit.pdf)
 
