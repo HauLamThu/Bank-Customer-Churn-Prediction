@@ -29,25 +29,26 @@ The dataset was obtained from Kaggle: https://www.kaggle.com/competitions/bank-c
 4. **Modeling**
    - Trained baseline models: Random Forest, XGBoost, Logistic Regression.
    - Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
-   - Selected final model and feature importance analysis.
+   - Selected the final model and feature importance analysis.
 
 5. **Conclusion**
-   - Final model Random Forest can cover 81% of customers about to churn and among 10 customers predicted churn, there are 7 customers will actually leave.
+   - The final model Random Forest can cover 81% of customers about to churn. Among 10 customers predicted churn, there are 7 customers will actually leave.
    - Found that features like Age, Number of Products and Balance have strong impact on churn probability.
-   - Received the public score with 92%.
+   - Received the public score of 92%.
 
 ## ✅ Deployment with Docker and Streamlit
 1. Containerized by using Docker:
    - Created main.py file for preprocessing data, loading model and running model.
-   - Created requirements.txt for installing necessary libraries.
-   - Created Dockerfile to run requirements.txt, main.py and Streamlit.
+   - Defined requirements.txt for installing necessary dependencies.
+   - Wrote a Dockerfile to run requirements.txt, main.py and Streamlit.
    - Built and run Docker image:
 ```
 docker build -t churn-app .
 docker run -p 8501:8501 churn-app
 ```
 2. Displayed by Streamlit:
-   - Built a simple UI for customer input.
-   - Displays prediction result in real time.
-![Model](https://github.com/HauLamThu/Bank-Customer-Churn-Prediction/blob/main/Streamlit.pdf)
+   - Built a user-friendly UI for customer input.
+   - Displays prediction results in real time.
+   - View the deployed model UI:
+![Model](https://github.com/HauLamThu/Bank-Customer-Churn-Prediction/blob/main/Streamlit.png)
 
